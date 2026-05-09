@@ -1,10 +1,13 @@
-data/
+# Models & Data
 models/
-*.ckpt
-*.pt
-*.safetensors
+data/
+*.parquet
+*.faiss
+*.index
 
---pycache--/
-.ipynb_checkpoints/
+# Python & Env
+__pycache__/
+*.pyc
 .env
-.DS_Store
+venv/
+.venv/
